@@ -1,6 +1,7 @@
 # partner-backend
 
 #### 介绍
+## 伙伴匹配系统
 基于Spring Boot2+Spring MVC的移动端网站，实现了用户管理、按标签检索用户、组队等功能。
 
 - 用户登录使用Redis实现分布式Session，解决集群间登录态同步问题；并使用Hash代替String来存储用户信息，节约了20%的内存并便于单字端的修改；
